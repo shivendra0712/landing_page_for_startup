@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #E8E8EA;
+    font-family: "Inter", sans-serif;
+}
+
+nav {
+    width: 100%;
+    padding: 0 5%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 2vw;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu button {
+    margin-left: 10px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: blue;
+}
+
+.toggle{
+     display: none;
+}
+.logo img {
+    width: 6vw;
+}
+
+.box {
+    padding: 0 5%;
+    width: 100%;
+    height: 55%;
+    /* background-color: #c9841d; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_left {
+    width: 46%;
+    height: 100%;
+    /* background-color: hwb(35 25% 70%); */
+    font-size: 2vw;
+}
+
+
+.box_left>h1 {
+
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.box_left>h1>span {
+
+    color: rgba(0, 0, 255, 0.5);
+}
+
+.box_left>p {
+    margin: 1% 0;
+    font-size: 0.7em;
+}
+
+.box_left>button {
+    margin-top: 3%;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: blue;
+}
+
+.box_right {
+    width: 43%;
+    height: 100%;
+    /* background-color: #b6cfb3; */
+    background-image: url(image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text>h1 {
+    text-align: center;
+    font-size: 2.6vw;
+    font-weight: 500;
+}
+.products{
+     width: 100%;
+     height: 3%;
+     display: flex;
+     justify-content: space-between;
+     padding: 0 7%;
+}
+
+.products_img1{
+    width: 6em;
+   height: 4em;
+    background-image: url(https://pluspng.com/img-png/apple-pay-logo-png-apple-pay-logo-vector-ai-free-img-300x142.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.products_img2{
+    width: 8em;
+    height:4em;
+    background-image: url(https://www.pngall.com/wp-content/uploads/5/Google-Logo-PNG-Free-Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.products_img3{
+    width: 8em;
+    height: 4em;
+    background-image: url(https://th.bing.com/th/id/R.83eab36f8ebe21cd09608ea73d95523a?rik=rss%2beh5LjtGYIw&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f4%2fMicrosoft-Logo-Transparent-Background.png&ehk=rqBs2L0Wm3uKUNNIPlHrIPBJHzHIZCC8ju1yM4NkW2g%3d&risl=&pid=ImgRaw&r=0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.products_img4{
+    width: 6em;
+    height: 4em;
+    background-image: url(https://krelixir.com/wp-content/uploads/2021/06/aws-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.products_img5{
+    width: 6em;
+    height: 4em;
+    background-image: url(https://s3.amazonaws.com/cpmn/wp-content/uploads/2020/01/netflix-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
