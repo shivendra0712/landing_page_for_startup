@@ -27,3 +27,5 @@ The purpose of this landing page is to introduce SoftCraft's AI platform to pote
 
 ### Live link: https://shivendra0712.github.io/landing_page_for_startup/
 
+![Image](https://github.com/user-attachments/assets/ca9c356f-bcc1-4251-a098-d3875a8e153d)
+
